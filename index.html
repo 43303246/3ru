@@ -8,34 +8,121 @@
 		font-weight: normal;
 		font-style: normal;
 	}
+
 	body {
 		padding-top: 10%;
 		width: 80%;
 		margin-left: 50%;
-		transform: translateX(-50%); 
+		transform: translateX(-50%);
+		border-bottom: 3px solid #888;
 	}
-	h1,ul {
+
+	h1,
+	ul {
 		font-family: 'serif-3ru';
 	}
+
+	h1 {
+		background: #bbb;
+		width: 8em;
+		height: 8em;
+		text-align: center;
+		color: #888;
+		box-shadow: 0 -5px 0px rgba(0,0,0,0.5);
+	}
+
+	h1 {
+		border: 3px solid #888;
+		border-radius: 50%;
+		float: left;
+		margin-right: 5%;
+	}
+
 	hr {
 		color: #888;
 	}
+
 	ul {
 		margin: 0;
 		padding: 0;
 	}
+
 	li {
 		display: inline;
 		margin-right: 50px;
 	}
 </style>
+<style>
+	h1 {
+		-webkit-animation-name: spin;
+		-webkit-animation-duration: 6000ms;
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-moz-animation-name: spin;
+		-moz-animation-duration: 6000ms;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-ms-animation-name: spin;
+		-ms-animation-duration: 6000ms;
+		-ms-animation-iteration-count: infinite;
+		-ms-animation-timing-function: linear;
+
+		animation-name: spin;
+		animation-duration: 6000ms;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	@-ms-keyframes spin {
+		from {
+			-ms-transform: rotateY(0deg);
+		}
+
+		to {
+			-ms-transform: rotateY(360deg);
+		}
+	}
+
+	@-moz-keyframes spin {
+		from {
+			-moz-transform: rotateY(0deg);
+		}
+
+		to {
+			-moz-transform: rotateY(360deg);
+		}
+	}
+
+	@-webkit-keyframes spin {
+		from {
+			-webkit-transform: rotateY(0deg);
+		}
+
+		to {
+			-webkit-transform: rotateY(360deg);
+		}
+	}
+
+	@keyframes spin {
+		from {
+			transform: rotateY(0deg);
+		}
+
+		to {
+			transform: rotateY(360deg);
+		}
+	}
+</style>
 <body>
-	<h1>3ruбля</h1>
+	<h1>
+		<pre>   <\  />   
+  _\__||__/__ 
+   /  /\  \   
+     _||_     </pre>3 ruбля</h1>
 	<hr>
 	<p>3 ruбля Co., Ltd.</p>
 	<hr>
-	This is a font sample for the "3 ruбля" company
-	Icon pack designed by LogBooK DraWinG Inc.
+	<p>This logo and the network icons below was fundament for the serif-3ru font collection. This serif-3ru have 10 symbols and this font is author protected. Icon font sample for the "3 ruбля" company developed and Icon pack designed by LogBooK DraWinG Inc.</p>
 	<ul>
 		<li><a href="https://vk.com/drawing.logbook">v</a></li>
 		<li><a href="https://vk.com/drawing.logbook">f</a></li>
